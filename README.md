@@ -4,6 +4,10 @@ Support chat: <https://matrix.to/#/#jnrh2023-tuto:laas.fr>
 
 Slides: <https://gepettoweb.laas.fr/talks/jnrh2023/>
 
+:warning: as you can guess from the name, this repo is from 2023 and will stay there.
+Some of the content from here is available in https://github.com/gepetto/supaero2025 (or ulterior versions),
+or the upstream projects directly.
+
 ## Getting started
 
 Start by cloning this repository:
