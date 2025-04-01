@@ -12,9 +12,23 @@ git clone https://github.com/nmansard/jnrh2023
 cd jnrh2023
 ```
 
-After this, you have to **choose one of the three** following supported methods:
+The only maintained use of this tutorial is with nix:
+```
+nix run
+```
+
+## Check your installation
+
+Jupyter-lab should show you a couple links in `https://localhost:8888` / `https://127.0.0.1:8000`: you should be able
+to open them, and in your webbrowser open and run `0_setup.ipynb` to say hi to Talos.
+
+## Obsolete and not maintaind instructions
+
+You have to **choose one of the three** following supported methods:
 
 ### pip
+
+:warning: this is obsolete, not tested, and probably broken
 
 1. create an environment:
 
@@ -36,6 +50,8 @@ After this, you have to **choose one of the three** following supported methods:
 
 
 ### conda (Linux, macOS and Windows)
+
+:warning: this is obsolete, not tested, and probably broken
 
 1. update conda:
 
@@ -88,9 +104,6 @@ After this, you have to **choose one of the three** following supported methods:
 
 ### docker
 
+:warning: this might still work, but it use old versions of everything
+
 1. start `docker run -v ./:/tuto --net=host -it nim65s/jnrh2023`
-
-## Check your installation
-
-Jupyter-lab should show you a couple links in `https://localhost:8888` / `https://127.0.0.1:8000`: you should be able
-to open them, and in your webbrowser open and run `0_setup.ipynb` to say hi to Talos.
