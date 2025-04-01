@@ -9,6 +9,7 @@ hashtags = ["jupyter_snippet"]
 
 def generate_from_id(tp_id: int):
     folder = Path() / f"tp{tp_id}"
+    folder.mkdir(exist_ok=True)
     ipynb = next(Path().glob(f"{tp_id}_*.ipynb"))
     generate(ipynb, folder)
 
@@ -42,7 +43,9 @@ def generate(ipynb, folder):
                     for cell_number, cell in enumerate(cells_copy):
                         if len(cell["source"]) == 0:
                             continue
-                        if cell["source"][0].endswith(f"%load {dest}"):
+                        if cell["source"][0].endswith(
+                            (f"%load {dest}\n", f"%load {dest}")
+                        ):
                             data["cells"][cell_number]["source"] = [
                                 f"# %load {dest}\n"
                             ] + content
