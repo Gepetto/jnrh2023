@@ -1,0 +1,13 @@
+pull_request_rules:
+  - name: merge automatically when CI passes and PR is approved
+    conditions:
+      - check-success = "Nix build on macos"
+      - check-success = "Nix build on ubuntu"
+      - check-success = "pre-commit.ci - pr"
+      - or:
+        - author = dependabot[bot]
+        - author = github-actions[bot]
+        - author = hrp2-14
+        - author = pre-commit-ci[bot]
+    actions:
+      merge:
