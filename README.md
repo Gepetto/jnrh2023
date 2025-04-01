@@ -72,7 +72,7 @@ You have to **choose one of the three** following supported methods:
 4. add conda-forge channel:
 
     `conda config --add channels conda-forge`
-   
+
     Note: If you already have the `conda-forge` channel set-up in your config, this will have no effect and you will likely get the warning message `Warning: 'conda-forge' already in 'channels' list, moving to the top`. You can simply discard it.
 
 6. install specific dependencies:
@@ -88,7 +88,7 @@ You have to **choose one of the three** following supported methods:
    Check for correct packages versions and source channel (4th column) in your output:
    ```
    example-robot-data    4.1.0     <some_hash>    olivier.roussel
-   hpp-fcl               2.99.0    <some_hash>    olivier.roussel 
+   hpp-fcl               2.99.0    <some_hash>    olivier.roussel
    pinocchio             2.99.0    <some_hash>    olivier.roussel
    ```
    If versions or source channel does not match this, then something gone wrong in your installation process.
@@ -98,7 +98,7 @@ You have to **choose one of the three** following supported methods:
     `conda install -c conda-forge jupyterlab meshcat-python scipy ipywidgets matplotlib`
 
 10. start JupyterLab:
-   
+
     Be sure that you are still in the `jnrh2023` root directory of the repository that you cloned at the *Getting started* step.
     #### Linux / macOS
     `PYTHONPATH=. jupyter-lab`
