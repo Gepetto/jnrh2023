@@ -1,7 +1,7 @@
 """
 Implement and solve the following nonlinear program:
 decide q_0 ... q_T \in R^NQxT
-minimizing   sum_t || q_t - q_t+1 ||**2 + || log( M(q_T)^-1 M^* ||^2 
+minimizing   sum_t || q_t - q_t+1 ||**2 + || log( M(q_T)^-1 M^* ||^2
 so that q_0 = robot.q0
 with M(q) \in SE(3) the placement of the robot end-effector, and M^* the target.
 

@@ -1,9 +1,9 @@
 """
 Implement and solve the following nonlinear program:
-decide 
+decide
   x_0 ... x_T \in R^NXxT+1
   a_0 ... a_T-1 \in R^NUxT
-minimizing   sum_t || q - q^* ||^2 
+minimizing   sum_t || q - q^* ||^2
 so that:
    q_0 = robot.q0
    forall t=0..T, x_t+1 = x_t + integral_0^DT a_t

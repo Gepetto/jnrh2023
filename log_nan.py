@@ -3,7 +3,7 @@ Stand-alone inverse geometry for a manipulator robot with a 6d objective.
 
 Implement and solve the following nonlinear program:
 decide q \in R^NQ
-minimizing   || log( M(q)^-1 M^* ||^2 
+minimizing   || log( M(q)^-1 M^* ||^2
 with M(q) \in SE(3) the placement of the robot end-effector, and M^* the target.
 
 The following tools are used:
@@ -14,7 +14,7 @@ The following tools are used:
 The test leads to Nan at first iteration of IpOpt, likely due to an improper derivation
 of the log function. This error is sensitive: change a little bit the target and everything
 comes back to work.
-Two targets are provided: MsaneTarget works, MfailureTarget don't. 
+Two targets are provided: MsaneTarget works, MfailureTarget don't.
 Change anything in MfailureTarget (angle or axis), and it is back to normal functionning.
 """
 

@@ -61,4 +61,4 @@ if __name__ == "__main__":
         generate_from_id(tp_number)
 
     # for app in ["appendix_scipy_optimizers"]:
-        # generate(next(Path().glob(app + ".ipynb")), Path() / "appendix")
+    # generate(next(Path().glob(app + ".ipynb")), Path() / "appendix")

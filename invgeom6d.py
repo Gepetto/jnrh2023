@@ -3,7 +3,7 @@ Stand-alone inverse geometry for a manipulator robot with a 6d objective.
 
 Implement and solve the following nonlinear program:
 decide q \in R^NQ
-minimizing   || log( M(q)^-1 M^* ||^2 
+minimizing   || log( M(q)^-1 M^* ||^2
 with M(q) \in SE(3) the placement of the robot end-effector, and M^* the target.
 
 The following tools are used:

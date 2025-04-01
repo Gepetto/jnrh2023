@@ -1,7 +1,7 @@
 """
 Implement and solve the following nonlinear program:
 decide x_0 ... x_T \in R^NXxT+1,  u_0 ... u_T-1 \in R^NUxT
-minimizing   sum_t || u - g(x_t) ||**2 + || v ||^2 
+minimizing   sum_t || u - g(x_t) ||**2 + || v ||^2
 so that:
    q_0 = robot.q0
    forall t=0..T, x_t+1 = x_t + integral_0^DT forward_dynamics(x_t,u_t)

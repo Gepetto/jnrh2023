@@ -2,12 +2,12 @@
 Implement and solve the following nonlinear program:
 decide q \in R^NQ
 minimizing   sum_t || q - robot.q0 ||**2
-so that 
+so that
       h(q) = target
       forall obstacles o,    (e_p - e_c)' e_A (e_p-e_c) >= 1
 with h(q) the forward geometry (position of end effector) to be at target position,
 e_A,e_c the ellipse matrix and center in the attached joint frame e_, and e_p = oMe^-1 o_p
-the position of the obstacle point p in frame e_. 
+the position of the obstacle point p in frame e_.
 
 The following tools are used:
 - the ur10 model (loaded by example-robot-data)

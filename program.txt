@@ -1,5 +1,5 @@
 
-0. Intro 
+0. Intro
     - qqs slides de Justin, recommandation de minimiser les informations theoriques, pour presenter l interet de pinocchio
     - tuto buildfromurdf: notebook par Guilhem, animation par Olivier  0_load_your_urdf.ipynb
 
@@ -8,7 +8,7 @@
 
 - cours au tableau par Nicolas (15'optimiste, recommandation de Justin de ne pas negliger cette partie)
 - exo de geom inverse par diff finies avec scipy  1_simplistic_inverse_geometry.ipynb
-- exo de geom inverse avec casad  
+- exo de geom inverse avec casad
 
 2. optim de traj
 
