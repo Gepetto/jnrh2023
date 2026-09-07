@@ -1,4 +1,4 @@
-"""
+r"""
 Implement and solve the following nonlinear program:
 decide q_0 ... q_T \in R^NQxT
 minimizing   sum_t || q_t - q_t+1 ||**2 + || log( M(q_T)^-1 M^* ||^2
