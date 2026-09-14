@@ -1,4 +1,4 @@
-"""
+r"""
 Implement and solve the following nonlinear program:
 decide q \in R^NQ
 minimizing   sum_t || q - robot.q0 ||**2

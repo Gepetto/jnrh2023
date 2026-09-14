@@ -1,4 +1,4 @@
-"""
+r"""
 Stand-alone inverse geometry for a manipulator robot with a 6d objective.
 
 Implement and solve the following nonlinear program:
