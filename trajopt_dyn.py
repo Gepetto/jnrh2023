@@ -1,4 +1,4 @@
-"""
+r"""
 Implement and solve the following nonlinear program:
 decide x_0 ... x_T \in R^NXxT+1,  u_0 ... u_T-1 \in R^NUxT
 minimizing   sum_t || u - g(x_t) ||**2 + || v ||^2
