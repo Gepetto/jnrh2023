@@ -1,4 +1,4 @@
-"""
+r"""
 Implement and solve the following nonlinear program:
 decide
   x_0 ... x_T \in R^NXxT+1
