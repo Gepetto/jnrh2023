@@ -132,8 +132,8 @@ viz.applyConfiguration("el", oMj_rand * jMel)
 # For future use ...
 print(
     f'SimpleNamespace(name="{robot.model.names[geom.parentJoint]}",\n'
-    + f"                A=np.{repr(sol_A)},\n"
-    + f"                center=np.{repr(sol_c)})"
+    + f"                A=np.{sol_A!r},\n"
+    + f"                center=np.{sol_c!r})"
 )
 
 # Matplotlib (for fun)
